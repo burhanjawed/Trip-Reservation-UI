@@ -1,10 +1,14 @@
+import { Routes, Route } from 'react-router-dom';
+import { Home, Hotel, List } from './pages';
 import './App.scss';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>APP COMPONENT</h1>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/hotels' element={<List />} />
+      <Route path='/hotels/:id' element={<Hotel />} />
+    </Routes>
   );
 }
 
