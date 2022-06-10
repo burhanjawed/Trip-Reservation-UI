@@ -1,7 +1,15 @@
 import React from 'react';
+import { Navbar, Header } from '../../components';
+import './Hotel.scss';
 
 const Hotel = () => {
-  return <div>Hotel</div>;
+  return (
+    <>
+      <Navbar />
+      <Header />
+      <div>Hotel</div>
+    </>
+  );
 };
 
 export default Hotel;
