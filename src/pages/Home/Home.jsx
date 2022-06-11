@@ -3,8 +3,10 @@ import {
   Featured,
   FeaturedProperties,
   Header,
+  MailList,
   Navbar,
   PropertyList,
+  Footer,
 } from '../../components';
 import './Home.scss';
 
@@ -19,6 +21,8 @@ const Home = () => {
         <PropertyList />
         <h1 className='home__title'>Homes guests love</h1>
         <FeaturedProperties />
+        <MailList />
+        <Footer />
       </div>
     </div>
   );
