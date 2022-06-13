@@ -15,7 +15,9 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --yellow-color: #febb02;
+  --green-color: #008009;
   --gray-color: gray;
+  --darkGray-color: rgb(88, 88, 88);
   --lightGray-color: lightgray;
 }
 
@@ -30,12 +32,12 @@
 }
 
 /* hide selector in number input */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+//   margin: 0;
+// }
 
-input[type='number'] {
-  -moz-appearance: textfield;
-}
+// input[type='number'] {
+//   -moz-appearance: textfield;
+// }
